@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "monstermod:test_block"
+  },
+  "result": "minecraft:dragon_egg",
+  "experience": 100000,
+  "cookingtime": 10000
+}
