@@ -2,6 +2,7 @@ package de.monsterluni.monstermod;
 
 import de.monsterluni.monstermod.core.init.BlockInit;
 import de.monsterluni.monstermod.core.init.ItemInit;
+import de.monsterluni.monstermod.core.itemgroup.TutorialModItemGroup;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -33,7 +34,7 @@ public class monstermod {
     @SubscribeEvent
     public static void onRegisterItems(final RegistryEvent.Register<Item> event){
         BlockInit.BLOCKS.getEntries().stream().map(RegistryObject::get).forEach(block -> {
-            event.getRegistry().register(new BlockItem(block, new Item.Properties().group(ItemGroup.REDSTONE))
+            event.getRegistry().register(new BlockItem(block, new Item.Properties().group(TutorialModItemGroup.MONSTER_MOD))
                     .setRegistryName(block.getRegistryName()));
         });
     }
