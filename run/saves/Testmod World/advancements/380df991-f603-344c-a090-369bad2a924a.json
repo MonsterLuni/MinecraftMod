@@ -29,6 +29,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_diamond_block": "2023-05-14 10:34:39 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "in_water": "2023-05-13 19:45:00 +0200"
@@ -47,6 +53,12 @@
       "minecraft:plains": "2023-05-13 19:39:37 +0200"
     },
     "done": false
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2023-05-14 10:34:26 +0200"
+    },
+    "done": true
   },
   "DataVersion": 2586
 }
