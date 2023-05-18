@@ -1,9 +1,9 @@
 {
   "type": "minecraft:blasting",
   "ingredient": {
-    "item": "monstermod:test_block"
+    "item": "monstermod:monster_ore"
   },
-  "result": "minecraft:dragon_egg",
+  "result": "monstermod:monster_ingot",
   "experience": 100000,
-  "cookingtime": 10000
+  "cookingtime": 100
 }

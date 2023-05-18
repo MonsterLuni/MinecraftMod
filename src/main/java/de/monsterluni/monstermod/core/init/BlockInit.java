@@ -21,4 +21,11 @@ public class BlockInit {
                     .harvestTool(ToolType.PICKAXE)
                     .harvestLevel(4)
                     .sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> MONSTER_ORE = BLOCKS.register("monster_ore",
+            ()-> new Block(AbstractBlock.Properties.create((Material.IRON), MaterialColor.GRAY)
+                    .hardnessAndResistance(1000,200)
+                    .harvestTool(ToolType.PICKAXE)
+                    .harvestLevel(4)
+                    .sound(SoundType.NETHERITE)));
 }

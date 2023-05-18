@@ -1,5 +1,7 @@
 {
   "item.monstermod.test_item": "Test Item",
   "block.monstermod.test_block": "Test Block",
+  "item.monstermod.monster_ingot": "Monster Ingot",
+  "block.monstermod.monster_ore": "Monster Ore",
   "itemGroup.monster_mod": "MonsterMod"
 }
